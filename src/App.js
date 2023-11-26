@@ -5,6 +5,7 @@ const Header = React.lazy(() => import('./components/header/Header.js'));
 const Editor = React.lazy(() => import('./components/editor/Editor.js'));
 const TableContainer = React.lazy(() => import("./components/table/TableContainer"));
 const Footer = React.lazy(() => import('./components/footer/Footer.js'));
+const Queries = React.lazy(() => import("./components/query/Queries.js"));
 
 const App = () => {
 

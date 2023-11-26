@@ -1,0 +1,26 @@
+/* Header.css */
+
+.sparkle {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    pointer-events: none;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 20%, transparent 70%);
+    transform-origin: center;
+    animation: sparkleAnimation 0.8s linear;
+  }
+  
+  @keyframes sparkleAnimation {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(2);
+      opacity: 0;
+    }
+  }
+  

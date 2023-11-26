@@ -94,7 +94,7 @@ const TableContainer = React.memo(({ query, isOpen }) => {
   if (error)
     return (
       <section className={`col-start-1 col-end-3 row-start-1 row-end-2 text-white m-6`}>
-        <h1 className="text-center font-bold text-xl bg-violet-800">
+        <h1 className="text-center font-bold text-xl bg-black">
           Something Went Wrong{' '}
           <span role="img" aria-label="sad face">
             😔
